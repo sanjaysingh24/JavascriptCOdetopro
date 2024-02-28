@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navbar{
+            display: flex;
+            gap: 80px;
+        }
+        .navbar_items{
+        transform-origin: 0.5s all;
+        display: none;
+        }
+        .navbar{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="navbar">
+             <div class="navbar-logo">Responsive navbar</div>
+            <button onclick="navbar()">🔳</button>
+        </div>
+        <div class="navbar_items">
+            <ul>
+                <li>home</li>
+                <li>contact</li>
+                <li>about</li>
+            </ul>
+        </div>
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>
